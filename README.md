@@ -58,3 +58,5 @@ ERWin 같은 옛날 거 말고 새로운 거?
 프론트앤드 ↓ 이 블로그 보고 따라해보기 O(github랑 react 연동했음) 
 https://velog.io/@a_in/React-Github
 
+리액트 기초: 블로그 프로젝트 만들기 1~7
+https://www.youtube.com/watch?v=LclObYwGj90&list=PLfLgtT94nNq1e6tr4sm2eH6ZZC2jcqGOy
