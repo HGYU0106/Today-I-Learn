@@ -60,3 +60,37 @@ https://velog.io/@a_in/React-Github
 
 리액트 기초: 블로그 프로젝트 만들기 1~7
 https://www.youtube.com/watch?v=LclObYwGj90&list=PLfLgtT94nNq1e6tr4sm2eH6ZZC2jcqGOy
+
+Web-app의 장점: 모바일앱으로 발행이 쉬움
+앱처럼 뛰어난 UX
+그냥 웹사이트보다 비즈니스적 강점
+
+자바스크립트 - 웹 브라우저에서 동적인 동작을 구현하기 위한 프로그래밍 언어
+
+프론트 개발의 메인 페이지 - App.js
+
+코드짠걸 미리보기 띄우기: terminal -> npm start
+
+nodejs를 설치한 이유: nodejs를 설치하면 npm이라는 툴 이용가능/ creat-react-app 라이브러리 때문에
+
+App.js는 메인페이지에 들어갈 HTML을 짜는 곳
+
+실제 메인 페이지는 public -> index.html
+
+App.js에 입력한 걸 index.html에 저장되게 설정되어있음
+(그 저장되게 하는 설정이 index.js가 함)
+
+node_modules: 라이브러리 모은 폴던
+public: static(정적인) 파일 보관함
+src: 소스코드 보관함, 실질적 코딩하는 곳
+package.json: 설치한 라이브러리 목록 (건들필요 없음)
+
+태그에 class를 주고싶으면? <div className="클래스명">
+리액트가 쌩HTML코딩보다 편리한 이유: 데이터 바인딩이 되게 쉬움 
+(데이터 바인딩이란? 데이터를 HTML에 꽂아넣는 것)
+데이터바인딩이 쉬워지는 React, Vue, Angular  {변수명, 함수 등}
+JSX에서 style 속성 집어넣을 때 style = {object 자료형으로 만든 스타일} 
+
+{useState} 상단에 첨부, 리액트의 데이터 저장공간 state 만드는 법
+state = 변수 대신 쓰는 데이터 저장공간, usestate()를 이용해 만들어야 함
+ex)  let [글제목, 글제목변경] = useState('남자 코트 추천');
