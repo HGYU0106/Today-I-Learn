@@ -94,3 +94,25 @@ JSX에서 style 속성 집어넣을 때 style = {object 자료형으로 만든 �
 {useState} 상단에 첨부, 리액트의 데이터 저장공간 state 만드는 법
 state = 변수 대신 쓰는 데이터 저장공간, usestate()를 이용해 만들어야 함
 ex)  let [글제목, 글제목변경] = useState('남자 코트 추천');
+state에 데이터 저장해놓는 이유: 웹이 App처럼 동작하게 만들고 싶어서 
+state는 변경되면 HTML이 자동으로 재렌더링이 된다. = HTML이 새로고침 없이도 스무스하게 변경
+
+자주 바뀌는 중요한 데이터는 변수 말고 state로 저장
+
+터미널에 뜨는 warning - eslint
+
+UI 버튼 만들기
+onClick={()=>{실행할 내용}}
+[state, stae변경함수]
+
+수정된[데이터]를 만든다. state를 deep copy해서 수정
+리액트 원칙 : immutable data 
+
+<Array, Object state 데이터 수정 방법> - 일단 변경함수 사용
+변경함수(대체할 데이터)
+1. 기존 state 카피본 만들고 2. 카피본에 수정사항 반영 후 3. 변경함수()에 집어넣기
+
+HTML을한 단어로 줄여서 쓸 수 있는 문법: 리액트의 Component 문법
+Component 유의사항 1. 이름은 대괄호 2. return()안에 있는건 태그하나로 묶어야함
+
+   
